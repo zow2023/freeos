@@ -7,4 +7,4 @@ src-git other https://github.com/Lienol/openwrt-package.git;other
 src-git kenzo https://github.com/kenzok8/openwrt-packages
 #src-git passwall https://github.com/xiaorouji/openwrt-passwall
 #src-git kiddin9 https://github.com/kiddin9/openwrt-packages
-src-git small8 https://github.com/kenzok8/small-package
+src-git small https://github.com/kenzok8/small
