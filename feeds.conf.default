@@ -22,8 +22,8 @@ src-git-full luci https://github.com/immortalwrt/luci.git;openwrt-21.02
 src-git-full routing https://github.com/openwrt/routing.git;openwrt-21.02
 src-git-full telephony https://github.com/openwrt/telephony.git;openwrt-21.02
 #src-git helloworld https://github.com/fw876/helloworld
-src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main
-src-git passwall https://github.com/xiaorouji/openwrt-passwall
+#src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main
+#src-git passwall https://github.com/xiaorouji/openwrt-passwall
 
 #src-git packages https://github.com/x-wrt/packages.git;24.01_b202402270001
 #src-git luci https://github.com/x-wrt/luci.git;24.01_b202402270001
