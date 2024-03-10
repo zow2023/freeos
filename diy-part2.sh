@@ -9,9 +9,9 @@
 # File name: diy-part2.sh
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 rm -rf feeds/luci/applications/luci-app-passwall
-git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
-#rm -rf feeds/packages/lang/golang
-#git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
+$git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
+#git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
+rm -rf feeds/packages/lang/golang
+git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
 # Modify default IP
 sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
