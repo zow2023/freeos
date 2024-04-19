@@ -9,7 +9,9 @@
 # File name: diy-part2.sh
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilter
-git clone https://github.com/kingyond/luci-app-accesscontrol-plus package/luci-app-accesscontrol-plus
+git clone https://github.com/sirpdboy/luci-app-parentcontrol package/luci-app-parentcontrol
+#git clone https://github.com/kingyond/luci-app-accesscontrol-plus package/luci-app-accesscontrol-plus
+git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
 
 #rm -rf feeds/luci/applications/luci-app-passwall
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
