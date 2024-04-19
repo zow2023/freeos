@@ -15,6 +15,8 @@ git clone https://github.com/kingyond/luci-app-accesscontrol-plus package/luci-a
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
 #git clone https://github.com/fw876/helloworld.git -b master package/helloworld
+
+git clone -b 23 https://github.com/kenzok78/luci-theme-argone
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 
