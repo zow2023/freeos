@@ -7,10 +7,10 @@
 #src-git small https://github.com/kenzok8/small
 
 #src-git helloworld https://github.com/fw876/helloworld
-src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main
-src-git passwall https://github.com/xiaorouji/openwrt-passwall
+#src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main
+#src-git passwall https://github.com/xiaorouji/openwrt-passwall 
 
-#src-git-full packages https://github.com/immortalwrt/packages.git;openwrt-21.02
+#src-git-full packages https://github.com/immortalwrt/packages.git;openwrt-21.02 
 #src-git-full luci https://github.com/immortalwrt/luci.git;openwrt-21.02
 #src-git-full routing https://github.com/openwrt/routing.git;openwrt-21.02
 #src-git-full telephony https://github.com/openwrt/telephony.git;openwrt-21.02
@@ -19,11 +19,11 @@ src-git passwall https://github.com/xiaorouji/openwrt-passwall
 #src-git kenzo https://github.com/kenzok8/openwrt-packages
 #src-git small https://github.com/kenzok8/small
 
-src-git packages https://github.com/x-wrt/packages.git;23.10_b202401010101
-src-git luci https://github.com/x-wrt/luci.git;23.10_b202401010101
-src-git routing https://github.com/x-wrt/routing.git;23.10_b202401010101
-src-git telephony https://github.com/x-wrt/telephony.git;23.10_b202401010101
-src-git x https://github.com/x-wrt/com.x-wrt.git;23.10_b202401010101
+src-git packages https://github.com/x-wrt/packages.git;23.10_b202312150123 
+src-git luci https://github.com/x-wrt/luci.git;23.10_b202312150123 
+src-git routing https://github.com/x-wrt/routing.git;23.10_b202312150123 
+src-git telephony https://github.com/x-wrt/telephony.git;23.10_b202312150123 
+src-git x https://github.com/x-wrt/com.x-wrt.git;23.10_b202312150123 
 #src-git-full video https://github.com/openwrt/video.git
 #src-git-full targets https://github.com/openwrt/targets.git
 #src-git-full oldpackages http://git.openwrt.org/packages.git
