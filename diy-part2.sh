@@ -15,7 +15,8 @@ git clone https://github.com/sirpdboy/sirpdboy-package package/sirpdboy-package
 
 #rm -rf feeds/luci/applications/luci-app-passwall
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
+#git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci 
+git clone https://github.com/xiaorouji/openwrt-passwall.git -b  luci-smartdns-dev package/passwall/luci
 #git clone https://github.com/fw876/helloworld.git -b master package/helloworld
 
 git clone https://github.com/jerrykuku/luci-theme-argon.git
@@ -30,4 +31,4 @@ find ./ | grep Makefile | grep mosdns | xargs rm -f
 git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 # Modify default IP
-sed -i 's/192.168.15.1/10.0.0.1/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168.15.1/10.0.0.1/g' package/base-files/files/bin/config_generate 
