@@ -15,9 +15,11 @@ git clone https://github.com/sirpdboy/sirpdboy-package package/sirpdboy-package
 
 #rm -rf feeds/luci/applications/luci-app-passwall
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
-#git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci 
-git clone https://github.com/xiaorouji/openwrt-passwall.git -b  luci-smartdns-dev package/passwall/luci
-git clone https://github.com/fw876/helloworld.git -b master package/helloworld
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci 
+#git clone https://github.com/xiaorouji/openwrt-passwall.git -b  luci-smartdns-dev package/passwall/luci
+#git clone https://github.com/fw876/helloworld.git -b master package/helloworld
+rm -rf package/helloworld
+git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-theme-argon-config
