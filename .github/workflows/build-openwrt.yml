@@ -21,7 +21,7 @@ on:
 
 env:
   REPO_URL: https://github.com/x-wrt/x-wrt
-  REPO_BRANCH: 24.01_b202404110914
+  REPO_BRANCH: 24.04_b202405241202
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: e8450.config
   DIY_P1_SH: diy-part1.sh
