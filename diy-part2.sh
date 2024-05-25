@@ -13,7 +13,7 @@ git clone https://github.com/sirpdboy/luci-app-parentcontrol package/luci-app-pa
 #git clone https://github.com/kingyond/luci-app-accesscontrol-plus package/luci-app-accesscontrol-plus
 git clone https://github.com/sirpdboy/sirpdboy-package package/sirpdboy-package
 
-#rm -rf feeds/packages/net/xray-core
+rm -rf feeds/packages/net/xray-core
 
 #rm -rf feeds/luci/applications/luci-app-passwall
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
