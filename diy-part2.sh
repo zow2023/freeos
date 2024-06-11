@@ -23,8 +23,8 @@ git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luc
 #rm -rf package/helloworld
 #git clone https://github.com/fw876/helloworld.git package/helloworld
 
-git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-theme-argon-config
+#git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+#git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-theme-argon-config
 
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
@@ -36,4 +36,4 @@ git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 #git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 #git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 # Modify default IP
-#sed -i 's/192.168.15.1/10.0.0.1/g' package/base-files/files/bin/config_generate 
+sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate 
